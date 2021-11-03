@@ -128,8 +128,7 @@ body {
             <table class="table table-bordered">
                 <thead>
                     <tr>
-                        <th>Noms</th>
-                        <th>Photo</th>
+                        <th style="text-align:center">Noms et photo</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -153,8 +152,7 @@ body {
                     <?php
                     if (!empty($num)) {
                         echo "<tr>
-                                <td>$nomsU</td>
-                                <td><img style='width:100px; height:100px; border-radius:100px' src='../img/$photoU'></td>
+                                <td style='text-align:center; '>$nomsU <br><br><img style='width:100px; height:100px; border-radius:100px' src='../img/$photoU'></td>
                             </tr>";
                     } else {
                         echo "
