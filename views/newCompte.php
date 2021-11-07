@@ -24,7 +24,7 @@ session_destroy();
 <style>
 * {
     font-size: 14px;
-    font-family: Segoe UI;
+    font-family: Consolas;
 }
 
 body {
@@ -35,10 +35,7 @@ body {
 <body class="container">
 
     <div class="container-newCompte">
-        <center>
-            <h3>Créer votre compte</h3>
-        </center>
-
+        <h3>Créer votre compte</h3>
         <form action="../back/registerUser.php" method="POST" enctype="multipart/form-data">
 
             <?php
