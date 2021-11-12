@@ -73,7 +73,7 @@ window.onload = () => {
                         let num = Math.random() * 898889789700000;
                         divC.innerHTML += "Requêts envoyées : " + num + "<br>";
 
-                    }, 200);
+                    }, 500);
                     i = i + 1;
 
                     console.log("hhh")

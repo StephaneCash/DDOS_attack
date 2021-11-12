@@ -28,7 +28,7 @@
                                     <select class="form-control" id="" name="att" value="">
                                         <option>--Choisir une attaque--</option>
                                         <option value="ddos">DDOS</option>
-                                        <option value="cross">xxs Cross</option>
+                                        <option value="cross">xss Cross</option>
                                     </select>
                                     <i class="i" style="color:brown;"></i>
                                 </div>
@@ -93,7 +93,7 @@
         </div>
     </div>
 
-    <script src="../jsFiles/sim.js"></script>
+    <script src="../jsFiles/simult.js"></script>
 
 </body>
 
