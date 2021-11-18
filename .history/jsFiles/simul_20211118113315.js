@@ -87,7 +87,7 @@ window.onload = () => {
             userMessage.trim().length === 0 ||
             imageUrl.trim().length === 0
         ) {
-            alert('Insérer du text et une image svp.');
+            alert('Please insert a valid message and image.');
             return;
         }
 

@@ -15,9 +15,7 @@
     img {
         margin-bottom: 10px;
         margin-right: 10px;
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
+        
     }
 
     #user-messages ul {
