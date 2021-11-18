@@ -1,0 +1,33 @@
+.attaque {
+    background-color: black;
+    border: 1px solid white;
+    height: 70vh;
+    color: white;
+    padding: 10px;
+    overflow: auto;
+}
+
+#user-messages ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.message-item {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.message-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.message-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}

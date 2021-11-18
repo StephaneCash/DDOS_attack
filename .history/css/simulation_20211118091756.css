@@ -1,0 +1,22 @@
+.attaque {
+    background-color: black;
+    border: 1px solid white;
+    height: 70vh;
+    color: white;
+    padding: 10px;
+    overflow: auto;
+}
+
+.ul {
+    border: 1px solid silver;
+    height: auto;
+    width: auto;
+    padding: 10px;
+}
+
+.user-messages {
+    border: 1px solid red;
+    height: auto;
+    width: auto;
+    padding: 10px;
+}

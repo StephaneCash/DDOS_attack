@@ -11,38 +11,6 @@
     <title>Sumulations</title>
 </head>
 
-<style>
-    img {
-        margin-bottom: 10px;
-        margin-right: 10px;
-    }
-
-    #user-messages ul {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-    }
-
-    .message-item {
-        margin: 0.5rem 0;
-        padding: 0.5rem;
-        display: flex;
-        align-items: center;
-    }
-
-    .message-image {
-        width: 50px;
-        height: 50px;
-        margin-right: 1rem;
-    }
-
-    .message-item img {
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-    }
-</style>
-
 <body style="background-color: #f0f0f0;">
     <?php
     include('../include/header.php');
@@ -69,7 +37,8 @@
                         </div>
                     </div>
 
-                    <div class="col-md-12 ddos" style="padding-left: 0; padding-right: 0; margin-top: 40px; display:none">
+                    <div class="col-md-12 ddos"
+                        style="padding-left: 0; padding-right: 0; margin-top: 40px; display:none">
                         <div class="row">
                             <div class="col-md-12">
                                 <p>
@@ -77,11 +46,13 @@
                                 </p>
                                 <div class="form-group">
                                     <label id="jj">Entrer l'adresse de l'host</label>
-                                    <input type="text" placeholder="Adresse hote" name="adresse" class="form-control host" id="host">
+                                    <input type="text" placeholder="Adresse hote" name="adresse"
+                                        class="form-control host" id="host">
                                 </div>
                                 <div class="form-group">
                                     <label>Préciser le temps</label>
-                                    <input type="number" placeholder="Adresse hote" name="adresse" class="form-control" id="time">
+                                    <input type="number" placeholder="Adresse hote" name="adresse" class="form-control"
+                                        id="time">
                                 </div>
                                 <button class="btn btn-primary start" id="ddos">Start DDOS</button>
 
@@ -89,28 +60,25 @@
                         </div>
                     </div>
 
-                    <div class="col-md-12 cross" style="padding-left: 0; padding-right: 0; margin-top: 40px; display:none">
+                    <div class="col-md-12 cross"
+                        style="padding-left: 0; padding-right: 0; margin-top: 40px; display:none">
                         <div class="row">
                             <div class="col-md-12">
-                                <section id="user-input">
-                                    <h5> Cross-Site Scripting (XSS) Attacks</h5>
-                                    <form>
-                                        <div class="form-group">
-                                            <label for="user-message">Votre Message</label>
-                                            <textarea id="user-message" name="user-message" class="form-control"></textarea>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="message-image">Message Image</label>
-                                            <input type="text" id="message-image" name="message-image" class="form-control" />
-                                        </div>
-                                        <button type="submit" class="btn btn-primary">Send Message</button>
-                                    </form>
-                                </section>
-                                <section id="user-messages">
-                                    <div class="ul" style="border:1px solid silver; 
-                                            padding:20px;margin-top:10px; box-shadow:2px 2px 10px 2px silver; background-color:white"></div>
-                                </section>
-<img src="">
+                                <p>
+                                    Attak CROSS
+                                </p>
+                                <div class="form-group">
+                                    <label id="jj">Entrer l'adresse de l'host</label>
+                                    <input type="text" placeholder="Adresse hote" name="adresse"
+                                        class="form-control host" id="host">
+                                </div>
+                                <div class="form-group">
+                                    <label>Préciser le temps</label>
+                                    <input type="number" placeholder="Adresse hote" name="adresse" class="form-control"
+                                        id="time">
+                                </div>
+                                <button class="btn btn-primary start" id="cross">Start CROSS</button>
+
                             </div>
                         </div>
                     </div>
@@ -125,7 +93,7 @@
         </div>
     </div>
 
-    <script src="../jsFiles/simul.js"></script>
+    <script src="../jsFiles/simult.js"></script>
 
 </body>
 

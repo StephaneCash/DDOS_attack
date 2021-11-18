@@ -16,31 +16,6 @@
         margin-bottom: 10px;
         margin-right: 10px;
     }
-
-    #user-messages ul {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-    }
-
-    .message-item {
-        margin: 0.5rem 0;
-        padding: 0.5rem;
-        display: flex;
-        align-items: center;
-    }
-
-    .message-image {
-        width: 50px;
-        height: 50px;
-        margin-right: 1rem;
-    }
-
-    .message-item img {
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-    }
 </style>
 
 <body style="background-color: #f0f0f0;">
@@ -110,7 +85,7 @@
                                     <div class="ul" style="border:1px solid silver; 
                                             padding:20px;margin-top:10px; box-shadow:2px 2px 10px 2px silver; background-color:white"></div>
                                 </section>
-<img src="">
+
                             </div>
                         </div>
                     </div>

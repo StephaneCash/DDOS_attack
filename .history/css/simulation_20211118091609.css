@@ -6,3 +6,10 @@
     padding: 10px;
     overflow: auto;
 }
+
+.ul{
+    border: 1px solid silver;
+    height:auto;
+    width:auto;
+    padding: 10px;
+}

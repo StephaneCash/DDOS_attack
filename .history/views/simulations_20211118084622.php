@@ -11,38 +11,6 @@
     <title>Sumulations</title>
 </head>
 
-<style>
-    img {
-        margin-bottom: 10px;
-        margin-right: 10px;
-    }
-
-    #user-messages ul {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-    }
-
-    .message-item {
-        margin: 0.5rem 0;
-        padding: 0.5rem;
-        display: flex;
-        align-items: center;
-    }
-
-    .message-image {
-        width: 50px;
-        height: 50px;
-        margin-right: 1rem;
-    }
-
-    .message-item img {
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-    }
-</style>
-
 <body style="background-color: #f0f0f0;">
     <?php
     include('../include/header.php');
@@ -93,7 +61,6 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <section id="user-input">
-                                    <h5> Cross-Site Scripting (XSS) Attacks</h5>
                                     <form>
                                         <div class="form-group">
                                             <label for="user-message">Votre Message</label>
@@ -107,10 +74,9 @@
                                     </form>
                                 </section>
                                 <section id="user-messages">
-                                    <div class="ul" style="border:1px solid silver; 
-                                            padding:20px;margin-top:10px; box-shadow:2px 2px 10px 2px silver; background-color:white"></div>
+                                    <ul></ul>
                                 </section>
-<img src="">
+
                             </div>
                         </div>
                     </div>
@@ -125,7 +91,9 @@
         </div>
     </div>
 
-    <script src="../jsFiles/simul.js"></script>
+    <script src="../jsFiles/sim.js"></script>
+    <script src="app.js"></script>
+
 
 </body>
 

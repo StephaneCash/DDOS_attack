@@ -110,7 +110,7 @@
                                     <div class="ul" style="border:1px solid silver; 
                                             padding:20px;margin-top:10px; box-shadow:2px 2px 10px 2px silver; background-color:white"></div>
                                 </section>
-<img src="">
+
                             </div>
                         </div>
                     </div>
