@@ -87,7 +87,7 @@
                                 <div class="form-group">
                                     <label id="jj">Entrer l'adresse de l'host</label>
                                     <input type="text" placeholder="Adresse hote" name="adresse" class="form-control host" id="host">
-
+                                    
                                     <div class="errHost">
 
                                     </div>
@@ -161,7 +161,7 @@
     </div>
 
     <script src="../jsFiles/jquery.min.js"></script>
-    <script src="../jsFiles/simulat.js"></script>
+    <script src="../jsFiles/simujl.js"></script>
 
 </body>
 

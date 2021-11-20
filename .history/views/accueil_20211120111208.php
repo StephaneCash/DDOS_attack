@@ -28,6 +28,9 @@
             </thead>
         </table>
     </div>
+<script>
+    alert("Bonjour")
+</script>
 </body>
 
 </html>

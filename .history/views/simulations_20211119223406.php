@@ -161,7 +161,7 @@
     </div>
 
     <script src="../jsFiles/jquery.min.js"></script>
-    <script src="../jsFiles/simulat.js"></script>
+    <script src="../jsFiles/simulation.js"></script>
 
 </body>
 

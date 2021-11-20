@@ -37,6 +37,8 @@ window.onload = () => {
     let bool = false;
 
     let valueHost = host.value;
+    
+    console.log('Bonjour les mpgars');
 
     const controleChamps = () => {
         if (host.value === "" || temps.value === "") {
@@ -51,6 +53,10 @@ window.onload = () => {
                 errHost.style.color = "green";
                 errHost.innerText = "Adresse valide";
                 console.log("Sliece ", host.value, sliceValueHost);
+            } else if ( host.value.length <= 20) {
+                bool = false;
+                errHost.style.color = "red";
+                errHost.innerHTML = "<i>Erreur ! Votre adresse doit avoir une longueur de plus de 18 caractères !'</i>";
             } else {
                 bool = false;
                 errHost.style.color = "red";
