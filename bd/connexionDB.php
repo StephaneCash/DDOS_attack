@@ -1,2 +1,2 @@
 <?php
-$connect = mysqli_connect("localhost", "root", "02745500Lut", "attakWeb");
+$connect = mysqli_connect("localhost", "root", "", "attakWeb");
